@@ -37,13 +37,14 @@ public:
 	Date& operator++() {
 		// member 함수 IncreaseDate를 호출한다.
 		IncreaseDate();
-		return *this;
+		return *this;   // *this 중요함 (많이씀) 어떻게씀?
 	}
 	// postfix 증가 연산자( postfix increment operator)
 	Date&  operator++(int) {
 		Date theOldOne = *this;
 		IncreaseDate();
-		return theOldOne;;
+		return theOldOne;;  // 앞선 operator++와 완전히 다른 형태이다.
 	}
     //*/
+    // operator 코드 2개는 완전히 암기해야함. 숙달해야한다.
 };

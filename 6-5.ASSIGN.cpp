@@ -31,7 +31,7 @@ public:
         cout<<"사용자에 의해 overloading된 치환 연산자 호출"<<endl;
         *pNumber = *(source.pNumber);
         //the other members should be copied, too
-        return this;// 오류가 나는 이유 파악 필요
+        return this;// 오류가 나는 이유 파악 필요 // -> 참조변수를 받냐 안받냐 유무
     }
     */
 

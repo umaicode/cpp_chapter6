@@ -78,6 +78,9 @@
     <ClCompile Include="6장-9.BOXER.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="6장-연산자구현소스.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="6장-11.NOTE.h">
